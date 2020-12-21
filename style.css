@@ -398,3 +398,14 @@
      }
    }
 
+.col-md-6 svg {
+  width: 136px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .col-md-6 svg {
+    width: 60px;
+  }
+}
