@@ -109,7 +109,7 @@
       /* Text animation style */
 
       .header-content .row .col-12 .title span::before {
-        content: "Front-End"; 
+        content: "React"; 
         animation: textanimate infinite 5s; 
         padding-left: 10px; 
         color: black;
@@ -119,11 +119,11 @@
     
        @keyframes textanimate { 
           0% { 
-              content: "Front-End"; 
+              content: "React"; 
           } 
     
           50% { 
-              content: "React"; 
+              content: "Software"; 
           } 
     
           75% { 
