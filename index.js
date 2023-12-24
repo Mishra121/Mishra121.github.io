@@ -117,7 +117,7 @@ $(document).ready(function() {
     
     new WOW().init();
     
-    $(".nav-link").on("click", function(e) {
+    $(".nav-link-scroll").on("click", function(e) {
       e.preventDefault();
       var targetSelector = $(this).attr("href");
       $(".navbar-collapse").collapse('hide');
