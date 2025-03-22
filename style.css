@@ -109,7 +109,7 @@
       /* Text animation style */
 
       .header-content .row .col-12 .title span::before {
-        content: "MERN"; 
+        content: "Software"; 
         animation: textanimate infinite 5s; 
         padding-left: 10px; 
         color: black;
@@ -119,15 +119,15 @@
     
        @keyframes textanimate { 
           0% { 
-              content: "MERN"; 
-          } 
-    
-          50% { 
               content: "Software"; 
-          } 
+          }
+          
+          50% { 
+            content: "Backend"; 
+          }
     
           75% { 
-              content: "Backend"; 
+              content: "Nodejs/Python"; 
           } 
         } 
    
